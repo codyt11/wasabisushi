@@ -2,6 +2,9 @@
     background-color: aquamarine;
     padding-bottom: 100px !important;
 }
+.nav-items{
+    margin-top: 3rem;
+}
 .dilly{
     position: absolute;
     top:18px;
