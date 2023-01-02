@@ -1,0 +1,19 @@
+.navbar{
+    background-color: aquamarine;
+    padding-bottom: 100px !important;
+}
+.dilly{
+    position: absolute;
+    top:18px;
+    right:20px;
+}
+
+.facebook{
+    margin-right: .5rem;
+}
+
+@media(min-width: 768px) {
+    .tog{
+        margin-right: 50px;
+    }
+}
