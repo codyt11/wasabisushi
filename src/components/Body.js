@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Carousel from 'react-bootstrap/Carousel';
 import "./body.css"
+import Sushi from "../Images/sushi.jpg"
 
 function Body () {
     return(
@@ -47,6 +48,14 @@ function Body () {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <div className="categories">
+      <div className="images">
+        <img src={Sushi}></img>
+        <img src={Sushi}></img>
+        <img src={Sushi}></img>
+        <img src={Sushi}></img>
+      </div>
+    </div>
     </Container>
     )
 }

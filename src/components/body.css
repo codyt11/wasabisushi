@@ -18,3 +18,21 @@
     left: 10rem;
     z-index: 3;
 }
+
+.categories{
+    height: 20rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.images{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 10rem;
+}
