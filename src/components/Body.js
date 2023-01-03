@@ -12,8 +12,8 @@ function Body () {
         
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          className="slide d-block w-100"
+          src={Sushi}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -22,10 +22,10 @@ function Body () {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
+      <img
+          className="slide d-block w-100"
+          src={Sushi}
+          alt="First slide"
         />
 
         <Carousel.Caption>
@@ -34,10 +34,10 @@ function Body () {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+      <img
+          className="slide d-block w-100"
+          src={Sushi}
+          alt="First slide"
         />
 
         <Carousel.Caption>
@@ -56,6 +56,48 @@ function Body () {
         <img src={Sushi}></img>
       </div>
     </div>
+    <Carousel interval={100000000} className="carousel-about mt-0 w-85 mx-auto">
+        
+      <Carousel.Item>
+      <Carousel.Caption className="caption">
+          <h5>Name</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      <img
+          className="slide-about d-block w-20"
+          src={Sushi}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+      <Carousel.Caption className="caption">
+          <h5>Name</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      <img
+          className="slide-about d-block w-20"
+          src={Sushi}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+      <Carousel.Caption className="caption">
+          <h5>Name</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      <img
+          className="slide-about d-block w-20"
+          src={Sushi}
+          alt="First slide"
+        />
+      </Carousel.Item>
+    </Carousel>
     </Container>
     )
 }
