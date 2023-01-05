@@ -7,7 +7,6 @@ import Sushi from "../Images/sushi.jpg"
 function Body () {
     return(
         <Container className="contain">
-            <div className="text"><span>Sushi Done</span><br/><span>The</span><br/><span>Right Way</span></div>
         <Carousel className="carousel w-85 mx-auto">
         
       <Carousel.Item>
